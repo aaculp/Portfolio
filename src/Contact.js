@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 
+
 export default class Contact extends Component {
   state = {
     name: '',
     email: '',
   }
+
   handleSubmit(e) {
     e.preventDefault()
     console.log('hitting')

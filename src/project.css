@@ -1,6 +1,7 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  overflow: scroll;
 }
 
 .menu {
@@ -33,19 +34,21 @@
 
 .projectGrid {
   display: grid;
-  grid-gap: 10px;
-  margin: 0 10px 0 10px;
+  grid-row-gap: 10px;
+  margin: 10px 10px 10px 10px;
   grid-template-areas:
-  'H H H H H H'
-  'A A A A B B'
-  'C C D D D D'
-  'F F F F F F'
+  'A A A A A A'  /* GRID FOR HEADER USE A*/
+  'B B B B C C'  /* GRID FOR PROJECT 1 USE B*/
+  'D D E E E E'  /* GRID FOR PROJECT 2 USE E*/
+  'F F F F G G'  /* GRID FOR PROJECT 3 USE F*/
+  'H H I I I I'  /* GRID FOR PROJECT 4 USE I*/
+  'J J J J J J' /* GRID FOR FOOTER USE J*/
 }
 
 .projectHeader {
   font-family: 'Ewert', cursive;
   font-size: 40px;
-  grid-area: H;
+  grid-area: A;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,61 +60,145 @@
   text-align: center;
 }
 
-.project1 {
-  grid-area: A;
-  width: 100%;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.project2 {
+.RickMorty {
   grid-area: B;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: orange;
 }
 
-.project3 {
+.RickMortyOverlay {
   grid-area: C;
+  color: white;
+  background-color: #FD6EFB;
+  text-align: center;
+  position: absolute;
+  top: 17.2%;
+  left: 66.4%;
+  width: 33%;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.RickMortyText {
+  font-family: 'Bungee', cursive;
+  padding-top: 50px;
+}
+
+.RickMorty:hover .RickMortyOverlay {
+  grid-area: C;
+  height: 60.3%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.DuckHunt {
+  grid-area: E;
   width: 100%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: blue;
 }
 
-.project4 {
+.DuckHuntOverlay {
   grid-area: D;
+  color: white;
+  background-color: #619FF8;
+  text-align: center;
+  position: absolute;
+  top: 78.9%;
+  left: 0%;
+  width: 33.6%;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.DuckHuntText {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.DuckHunt:hover .DuckHuntOverlay {
+  grid-area: C;
+  height: 67.3%;
+}
+
+.Remedi {
+  grid-area: F;
   width: 100%;
-  height: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: purple;
+  height: 100%;
+}
+
+.RemediOverlay {
+  grid-area: G;
+  color: white;
+  background-color: #546056;
+  text-align: center;
+  position: absolute;
+  top: 147.5%;
+  left: 66.4%;
+  width: 33%;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.RemediText {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.Remedi:hover .RemediOverlay {
+  grid-area: C;
+  height: 86%;
+}
+
+.imageRemedi {
+  display: block;
+  width: 100%;
+  height: 600px;
+}
+
+.WhoHasTime {
+  grid-area: I;
+  width: 100%;
+  height: 100%;
+}
+
+.WhoHasTimeOverlay {
+  grid-area: H;
+  color: white;
+  background-color: #450099;
+  text-align: center;
+  position: absolute;
+  top: 235%;
+  left: 0%;
+  width: 33.6%;
+  height: 0%;
+  transition: .5s ease;
+}
+
+.WhoHasTime:hover .WhoHasTimeOverlay {
+  grid-area: C;
+  height: 80.5%;
+}
+
+.WhoHasTimeText {
+  font-family: 'Mountains of Christmas', cursive;
+  font-weight: bold;
+  padding-top: 50px;
 }
 
 .project5 {
   grid-area: E;
   height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: green;
 }
 
 .projectFooter {
-  grid-area: F;
+  grid-area: J;
   display: flex;
   flex-direction: row;
   justify-content: center;

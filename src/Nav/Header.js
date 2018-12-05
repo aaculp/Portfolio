@@ -25,7 +25,7 @@ class Header extends Component {
 
 render() {
     return(
-      <div className="header">
+      <div className = "header">
       <h1> AAC </h1>
       </div>
       )

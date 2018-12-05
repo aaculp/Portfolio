@@ -23,27 +23,27 @@ export default class Contact extends Component {
   render() {
     return(
       <form
-        className='ContactForm'
-        onSubmit={(e) => this.handleSubmit(e)}>
+        className = 'ContactForm'
+        onSubmit = {(e) => this.handleSubmit(e)}>
         <input
-          type='text'
-          name='name'
-          value={this.state.name}
-          placeholder='Name'
-          className='formInput'
-          onChange={(e) =>this.handleChange(e)}
+          type = 'text'
+          name = 'name'
+          value = {this.state.name}
+          placeholder = 'Name'
+          className = 'formInput'
+          onChange = {(e) =>this.handleChange(e)}
         />
         <input
-          type='email'
-          name='email'
-          value={this.state.email}
-          placeholder='Email'
-          className='formInput'
-          onChange={(e) =>this.handleChange(e)}
+          type = 'email'
+          name = 'email'
+          value = {this.state.email}
+          placeholder = 'Email'
+          className = 'formInput'
+          onChange = {(e) =>this.handleChange(e)}
         />
         <input
-          type='submit'
-          value="Let's Do Some Work!"
+          type = 'submit'
+          value = "Let's Do Some Work!"
           />
         </form>
       )

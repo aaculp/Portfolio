@@ -6,13 +6,14 @@ export default class Projects extends Component {
   render() {
     return(
       <div class = 'projectGrid'>
-          <div className = "menu">
-          <div className = "bar1"></div>
-          <div className = "bar2"></div>
-          <div className = "bar3"></div>
+
+        <div className = "menu">
+            <div className = "bar1"></div>
+            <div className = "bar2"></div>
+            <div className = "bar3"></div>
           <div className = "dropdown-content">
             <Link to = '/home' style = {{ color: 'red'}}>Home</Link>
-            <Link to = '/projects' style = {{ color: 'red'}}>Projects</Link>
+            <Link to = '/about' style = {{ color: 'red'}}>About Me</Link>
             <Link to = '/contact' style = {{ color: 'red'}}>Contact Me</Link>
           </div>
         </div>

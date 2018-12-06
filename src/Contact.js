@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import './contact.css'
 
 export default class Contact extends Component {
@@ -43,16 +44,6 @@ export default class Contact extends Component {
           />
         </a>
 
-        <a href = 'https://github.com/aaculp'>
-          <img
-            src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544120476/Portfolio/iconmonstr-github-5.svg'
-            height = '50'
-            width = '50'
-            alt = 'GitHub'
-            className = 'GitHub'
-          />
-        </a>
-
         <div className = 'flagContainer'>
           <div className = 'flagStripes'>
             <div className = 'redTop'></div>
@@ -73,16 +64,17 @@ export default class Contact extends Component {
 
       <div className = 'contactDisplay'>
 
-{/*        <div className = 'contactForm'>
-          <ContactForm />
-        </div>*/}
-
         <div className = 'contactLogo'>
           <span>A</span>
           <span className = 'spin'>A</span>
           <span>C</span>
         </div>
 
+      <div className = 'BottomNav'>
+        <Link to = '/home' style = {{ color: 'white', textDecoration: 'none'}}>Home</Link>
+        <Link to = '/about' style = {{ color: 'white', textDecoration: 'none'}}>About Me</Link>
+        <Link to = '/projects' style = {{ color: 'white', textDecoration: 'none'}}>Projects</Link>
+      </div>
 {/*        <div className = 'contactBio'>
           <p>AARON</p>
           <p>CULP</p>

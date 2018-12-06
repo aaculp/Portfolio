@@ -66,7 +66,7 @@
 .LinkedIn {
   position: absolute;
   top: 85.5%;
-  left: 50%;
+  left: 75%;
 }
 
 .GitHub {
@@ -83,7 +83,19 @@
   align-items: flex-start;
   justify-content: space-around;
   margin-bottom: 20px;
-  margin-top: 70px;
+  margin-top: 73px;
+}
+
+.BottomNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0% 5% 0.5% 5%;
+
 }
 
 .contactBio {

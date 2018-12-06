@@ -30,7 +30,9 @@ export default class Projects extends Component {
             <div className = 'RickMortyText'>
               <h1> Rick & Morty Space Adventures </h1>
               <h1> Spacebar - Shoot </h1>
-              <h1> Left/Right Arrows - Move Rick </h1>
+              <h1> Left Arrow - Move Rick </h1>
+              <h1> Right Arrow - Move Rick </h1>
+              <h1> Built In HTML / CSS / JS-DOM </h1>
             </div>
           </div>
         </div>
@@ -43,6 +45,7 @@ export default class Projects extends Component {
             <div className = 'DuckHuntText'>
               <h1> Duck Hunt </h1>
               <h1> Click On The Ducks To Shoot Them </h1>
+              <h1> Built In HTML / CSS / JS-DOM </h1>
             </div>
           </div>
         </div>
@@ -51,9 +54,10 @@ export default class Projects extends Component {
           <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543970506/Portfolio/RemediMobile.jpg' alt = 'Remedi' className = 'imageRemedi' />
           <div className = 'RemediOverlay'>
             <div className = 'RemediText'>
-              <h1> Rick and Morty Space Adventures </h1>
-              <h1> Spacebar - Shoot </h1>
-              <h1> Left/Right Arrows - Move Rick </h1>
+              <h1> Remedi </h1>
+              <h1> Health Care Mobile App </h1>
+              <h1> Built In React Native </h1>
+              <h1> Designed by UX / UI Designers </h1>
             </div>
           </div>
         </div>
@@ -62,9 +66,11 @@ export default class Projects extends Component {
           <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543979638/Portfolio/WHO.jpg' alt = 'Who Has Time' className = 'image' />
           <div className = 'WhoHasTimeOverlay'>
             <div className = 'WhoHasTimeText'>
-              <h1> Rick and Morty Space Adventures </h1>
-              <h1> Spacebar - Shoot </h1>
-              <h1> Left/Right Arrows - Move Rick </h1>
+              <h1> Who Has Time </h1>
+              <h1> React Web Application </h1>
+              <h1> Predict Waiting Lines </h1>
+              <h1> So You Don't Have To Waste Your Time  </h1>
+              <h1> React Native Mobile Coming Soon! </h1>
             </div>
           </div>
         </div>

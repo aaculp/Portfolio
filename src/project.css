@@ -79,10 +79,12 @@
   transition: .5s ease;
 }
 
-.RickMortyText {
+.RickMortyText h1{
   grid-area: C;
+  font-size: 28px;
   font-family: 'Bungee', cursive;
-  padding-top: 50px;
+  padding: 25px 0 25px 0;
+  margin: 5px 0 0 0;
 }
 
 .RickMorty:hover .RickMortyOverlay {
@@ -115,10 +117,11 @@
   transition: .5s ease;
 }
 
-.DuckHuntText {
+.DuckHuntText h1{
   font-family: 'Indie Flower', cursive;
   font-weight: bold;
-  padding-top: 50px;
+  padding: 50px 0 25px 0;
+  margin: 5px 0 0 0;
 }
 
 .DuckHunt:hover .DuckHuntOverlay {
@@ -145,11 +148,12 @@
   transition: .5s ease;
 }
 
-.RemediText {
+.RemediText h1{
   font-family: 'Shadows Into Light', cursive;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
-  padding-top: 50px;
+  padding: 50px 0 25px 0;
+  margin: 5px 0 0 0;
 }
 
 .Remedi:hover .RemediOverlay {
@@ -187,10 +191,11 @@
   height: 80.3%;
 }
 
-.WhoHasTimeText {
+.WhoHasTimeText h1{
   font-family: 'Mountains of Christmas', cursive;
   font-weight: bold;
-  padding-top: 50px;
+  padding: 25px 0 25px 0;
+  margin: 5px 0 0 0;
 }
 
 .project5 {

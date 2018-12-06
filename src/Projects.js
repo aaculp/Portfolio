@@ -25,7 +25,7 @@ export default class Projects extends Component {
         </div>
 
         <div className = 'RickMorty'>
-          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543943983/Portfolio/Run-the-Jewels-Rick-and-Morty.jpg' alt = 'Rick & Morty' className = 'image' />
+          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544030088/Portfolio/RickMortyDuo.jpg' alt = 'Rick & Morty' className = 'image' />
           <div className = 'RickMortyOverlay'>
             <div className = 'RickMortyText'>
               <h1> Rick & Morty Space Adventures </h1>
@@ -38,7 +38,7 @@ export default class Projects extends Component {
        {/*img owned by Adult Swim*/}
 
         <div className = 'DuckHunt'>
-          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543951115/Portfolio/duck-hunt-part-2.png' alt = 'Duck Hunt' className = 'image' />
+          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544027007/Portfolio/DuckHUNT.jpg' alt = 'Duck Hunt' className = 'image' />
           <div className = 'DuckHuntOverlay'>
             <div className = 'DuckHuntText'>
               <h1> Duck Hunt </h1>

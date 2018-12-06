@@ -1,0 +1,109 @@
+.contact {
+  margin: 0  auto;
+  overflow: hidden;
+}
+
+.flagContainer {
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+}
+
+.flagStars {
+  background-color: blue;
+  width: 50%;
+  height: 400px;
+}
+
+.flagStripes {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.redTop {
+  width: 100%;
+  height: 54px;
+  background-color:red;
+  margin-left: 640px;
+}
+
+.whiteTop {
+  width: 100%;
+  height: 54px;
+  background-color: white;
+  margin-left: 640px;
+}
+
+.redBottom {
+  width: 100%;
+  height: 54px;
+  background-color:red;
+}
+
+.whiteBottom {
+  width: 100%;
+  height: 54px;
+  background-color: white;
+}
+
+.contactDisplay {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+}
+
+.Instagram {
+  position: absolute;
+  top: 85.5%;
+  left: 25%;
+}
+
+.LinkedIn {
+  position: absolute;
+  top: 85.5%;
+  left: 50%;
+}
+
+.GitHub {
+  position: absolute;
+  top: 85.5%;
+  left: 75%;
+}
+
+.contactLogo {
+  font-family: 'Ewert', cursive;
+  font-size: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.contactBio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.spin {
+  margin: 0 25px 0 25px;
+  animation: logo 5s infinite linear;
+  -webkit-animation: logo 5s infinite linear;
+}
+
+@keyframes logo {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

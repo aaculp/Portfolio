@@ -42,7 +42,7 @@
   'D D E E E E'  /* GRID FOR PROJECT 2 USE E*/
   'F F F F G G'  /* GRID FOR PROJECT 3 USE F*/
   'H H I I I I'  /* GRID FOR PROJECT 4 USE I*/
-  'J J J J J J' /* GRID FOR FOOTER USE J*/
+  'J J J J J J'; /* GRID FOR FOOTER USE J*/
 }
 
 .projectHeader {
@@ -87,7 +87,7 @@
 
 .RickMorty:hover .RickMortyOverlay {
   grid-area: C;
-  height: 60.3%;
+  height: 80.3%;
 }
 
 .image {
@@ -108,7 +108,7 @@
   background-color: #619FF8;
   text-align: center;
   position: absolute;
-  top: 78.9%;
+  top: 99%;
   left: 0%;
   width: 33.6%;
   height: 0%;
@@ -123,7 +123,7 @@
 
 .DuckHunt:hover .DuckHuntOverlay {
   grid-area: C;
-  height: 67.3%;
+  height: 80.3%;
 }
 
 .Remedi {
@@ -138,7 +138,7 @@
   background-color: #546056;
   text-align: center;
   position: absolute;
-  top: 147.5%;
+  top: 180.8%;
   left: 66.4%;
   width: 33%;
   height: 0%;
@@ -154,7 +154,7 @@
 
 .Remedi:hover .RemediOverlay {
   grid-area: C;
-  height: 86%;
+  height: 86.1%;
 }
 
 .imageRemedi {
@@ -175,7 +175,7 @@
   background-color: #450099;
   text-align: center;
   position: absolute;
-  top: 235%;
+  top: 268.3%;
   left: 0%;
   width: 33.6%;
   height: 0%;
@@ -184,7 +184,7 @@
 
 .WhoHasTime:hover .WhoHasTimeOverlay {
   grid-area: C;
-  height: 80.5%;
+  height: 80.3%;
 }
 
 .WhoHasTimeText {

@@ -1,0 +1,219 @@
+/*Responsive Web*/
+
+@media only screen and (max-width: 400px) {*/
+  .RickMortyOverlay {
+    grid-area: C;
+    color: white;
+    background-color: #FD6EFB;
+    text-align: center;
+    position: absolute;
+    top: 17.2%;
+    left: 66.4%;
+    width: 33%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .RickMortyText h1{
+    grid-area: C;
+    font-size: 14px;
+    font-family: 'Bungee', cursive;
+  }
+
+  .RickMorty:hover .RickMortyOverlay {
+    grid-area: C;
+    height: 10%;
+  }
+
+  .DuckHuntOverlay {
+    grid-area: D;
+    color: white;
+    background-color: #619FF8;
+    text-align: center;
+    position: absolute;
+    top: 99%;
+    left: 0%;
+    width: 33.6%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .DuckHuntText h1{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    padding: 50px 0 25px 0;
+    margin: 5px 0 0 0;
+  }
+
+  .DuckHunt:hover .DuckHuntOverlay {
+    grid-area: C;
+    height: 80.3%;
+  }
+
+  .RemediOverlay {
+    grid-area: G;
+    color: white;
+    background-color: #546056;
+    text-align: center;
+    position: absolute;
+    top: 180.8%;
+    left: 66.4%;
+    width: 33%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .RemediText h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0 25px 0;
+    margin: 5px 0 0 0;
+  }
+
+  .Remedi:hover .RemediOverlay {
+    grid-area: C;
+    height: 86.1%;
+  }
+
+  .WhoHasTime {
+    grid-area: I;
+    width: 100%;
+    height: 100%;
+  }
+
+  .WhoHasTimeOverlay {
+    grid-area: H;
+    color: white;
+    background-color: #450099;
+    text-align: center;
+    position: absolute;
+    top: 268.3%;
+    left: 0%;
+    width: 33.6%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .WhoHasTime:hover .WhoHasTimeOverlay {
+    grid-area: C;
+    height: 80.3%;
+  }
+
+  .WhoHasTimeText h1{
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: bold;
+    padding: 25px 0 25px 0;
+    margin: 5px 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .RickMortyOverlay {
+    grid-area: C;
+    color: white;
+    background-color: #FD6EFB;
+    text-align: center;
+    position: absolute;
+    top: 21.5%;
+    left: 66.4%;
+    width: 33%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .RickMortyText h1{
+    grid-area: C;
+    font-size: 14px;
+    font-family: 'Bungee', cursive;
+    padding: 8px 0 8px 0;
+  }
+
+  .RickMorty:hover .RickMortyOverlay {
+    height: 45.8%;
+  }
+
+  .DuckHuntOverlay {
+    grid-area: D;
+    color: white;
+    background-color: #619FF8;
+    text-align: center;
+    position: absolute;
+    top: 69.1%;
+    left: 0%;
+    width: 33.6%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .DuckHuntText h1{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 25px 0 13px 0;
+    margin: 5px 0 0 0;
+  }
+
+  .DuckHunt:hover .DuckHuntOverlay {
+    grid-area: C;
+    height: 46%;
+  }
+
+  .RemediOverlay {
+    grid-area: G;
+    color: white;
+    background-color: #546056;
+    text-align: center;
+    position: absolute;
+    top: 117%;
+    left: 66.4%;
+    width: 33%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .RemediText h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 30px 0 15px 0;
+    margin: 5px 0 0 0;
+  }
+
+  .Remedi:hover .RemediOverlay {
+    grid-area: C;
+    height: 71.4%;
+  }
+
+  .imageRemedi {
+    height: 400px;
+  }
+
+  .WhoHasTimeOverlay {
+    grid-area: H;
+    color: white;
+    background-color: #450099;
+    text-align: center;
+    position: absolute;
+    top: 190.2%;
+    left: 0%;
+    width: 33.6%;
+    height: 0%;
+    transition: .5s ease;
+  }
+
+  .WhoHasTimeText h1{
+    font-family: 'Mountains of Christmas', cursive;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 5px 0 5px 0;
+    margin: 5px 0 0 0;
+  }
+
+  .WhoHasTime:hover .WhoHasTimeOverlay {
+    grid-area: C;
+    height: 45.8%;
+  }
+}
+
+/*Mobile CSS*/

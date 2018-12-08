@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import './project.css'
+import './projectMedia.css'
 
 export default class Projects extends Component {
   render() {
     return(
-      <div class = 'projectGrid'>
+      <div className = 'projectGrid'>
 
         <div className = "menu">
             <div className = "bar1"></div>
@@ -25,7 +26,10 @@ export default class Projects extends Component {
         </div>
 
         <div className = 'RickMorty'>
-          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544030088/Portfolio/RickMortyDuo.jpg' alt = 'Rick & Morty' className = 'image' />
+          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544030088/Portfolio/RickMortyDuo.jpg'
+            alt = 'Rick & Morty'
+            className = 'image'
+          />
           <div className = 'RickMortyOverlay'>
             <div className = 'RickMortyText'>
               <h1> Rick & Morty Space Adventures </h1>
@@ -40,7 +44,10 @@ export default class Projects extends Component {
        {/*img owned by Adult Swim*/}
 
         <div className = 'DuckHunt'>
-          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544027007/Portfolio/DuckHUNT.jpg' alt = 'Duck Hunt' className = 'image' />
+          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1544027007/Portfolio/DuckHUNT.jpg'
+            alt = 'Duck Hunt'
+            className = 'image'
+          />
           <div className = 'DuckHuntOverlay'>
             <div className = 'DuckHuntText'>
               <h1> Duck Hunt </h1>
@@ -51,7 +58,10 @@ export default class Projects extends Component {
         </div>
 
         <div className = 'Remedi'>
-          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543970506/Portfolio/RemediMobile.jpg' alt = 'Remedi' className = 'imageRemedi' />
+          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543970506/Portfolio/RemediMobile.jpg'
+            alt = 'Remedi'
+            className = 'imageRemedi'
+          />
           <div className = 'RemediOverlay'>
             <div className = 'RemediText'>
               <h1> Remedi </h1>
@@ -63,7 +73,10 @@ export default class Projects extends Component {
         </div>
 
         <div className = 'WhoHasTime'>
-          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543979638/Portfolio/WHO.jpg' alt = 'Who Has Time' className = 'image' />
+          <img src = 'https://res.cloudinary.com/aaronculp/image/upload/v1543979638/Portfolio/WHO.jpg'
+            alt = 'Who Has Time'
+            className = 'image'
+          />
           <div className = 'WhoHasTimeOverlay'>
             <div className = 'WhoHasTimeText'>
               <h1> Who Has Time </h1>

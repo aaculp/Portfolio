@@ -1,0 +1,224 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  * {
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+  .homepage {
+    overflow: hidden;
+  }
+
+  .welcome {
+    position: absolute;
+    left: 35%;
+    top: 5%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .welcome:hover, .welcome:focus, .welcome:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .the {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 45%;
+    top: 10%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .the:hover, .the:focus, .the:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .portfolio-of {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 32%;
+    top: 15%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .portfolio-of:hover, .portfolio-of:focus, .portfolio-of:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .home-img {
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    height: 300px;
+    width: 150px;
+    border-radius: 25px;
+    visibility: visible;
+  }
+
+  .big-image {
+    visibility: hidden;
+  }
+
+  .name {
+    color: white;
+    font-size: 18px;
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 32%;
+    top: 27%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .name:hover, .name:focus, .name:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .front-end {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 33%;
+    top: 75%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .front-end:hover, .front-end:focus, .front-end:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .web-dev {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 28%;
+    top: 80%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .web-dev:hover, .web-dev:focus, .web-dev:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .AboutNav {
+    background-color:rgba(255, 255, 255, 0);
+    color: red;
+    position: fixed;
+    left: -10%;
+    top: 45%;
+    transform: rotate(90deg);
+  }
+
+  .ContactNav {
+    color: blue;
+    position: fixed;
+    right: -10%;
+    top: 300px;
+    transform: rotate(-90deg);
+  }
+
+  .ContactNav:hover {
+    color: red;
+    background-color:rgba(255, 255, 255, 0);
+    letter-spacing: 40px;
+    right: -47%;
+    transition: all 1s;
+  }
+
+  .ProjectsNav {
+    background-color:rgba(255, 255, 255, 0);
+    color: orange;
+    position: fixed;
+    width: 100%;
+    left: 25%;
+    bottom: 5%;
+  }
+
+  .ProjectsNav:hover {
+    color: white;
+    background-color:rgba(255, 255, 255, 0);
+    letter-spacing: 10px;
+    left: 15%;
+    transition: all 1s;
+  }
+
+}
+
+@media (min-width: 481px) and (max-width: 800px) {
+  .big-image {
+    visibility: hidden;
+  }
+
+  .home-img {
+    position: absolute;
+    left: 40%;
+    top: 25%;
+    height: 300px;
+    width: 200px;
+    border-radius: 25px;
+    visibility: visible;
+  }
+
+  .ContactNav {
+    color: blue;
+    position: fixed;
+    right: -7%;
+    top: 300px;
+    transform: rotate(-90deg);
+    letter-spacing: 5px;
+  }
+
+  .ProjectsNav {
+    background-color:rgba(255, 255, 255, 0);
+    color: orange;
+    position: fixed;
+    width: 100%;
+    left: 40%;
+    bottom: 25px;
+  }
+
+  .ProjectsNav:hover {
+    color: white;
+    background-color:rgba(255, 255, 255, 0);
+    letter-spacing: 60px;
+    left: 15%;
+    transition: all 1s;
+  }
+
+  .welcome:hover, .welcome:focus, .welcome:active {
+    -webkit-transform: scale(1.5,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .the:hover, .the:focus, .the:active {
+    -webkit-transform: scale(2,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .portfolio-of:hover, .portfolio-of:focus, .portfolio-of:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .name:hover, .name:focus, .name:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .front-end:hover, .front-end:focus, .front-end:active {
+    -webkit-transform: scale(1.6,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .web-dev:hover, .web-dev:focus, .web-dev:active {
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+}

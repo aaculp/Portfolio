@@ -1,0 +1,207 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    .flagContainer {
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+      }
+      
+      .flagStars {
+        background-color: blue;
+        width: 50%;
+        height: 400px;
+      }
+      
+      .flagStripes {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      
+      .redTop {
+        width: 100%;
+        height: 54px;
+        background-color:red;
+        margin-left: 300px;
+      }
+      
+      .whiteTop {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        margin-left: 300px;
+      }
+      
+      .redBottom {
+        width: 100%;
+        height: 54px;
+        background-color:red;
+      }
+      
+      .whiteBottom {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+      }
+
+      .contactLogo {
+        font-size: 150px;
+        align-items: center;
+      }
+
+      .Instagram {
+        position: absolute;
+        top: 70%;
+        left: 25%;
+      }
+      
+      .LinkedIn {
+        position: absolute;
+        top: 70%;
+        left: 75%;
+      }
+
+      .BottomNav {
+        align-items: center;
+        margin-bottom: 5%;
+      }
+  }
+  
+  @media (min-width: 481px) and (max-width: 800px) {
+    .flagContainer {
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+      }
+      
+      .flagStars {
+        background-color: blue;
+        width: 50%;
+        height: 400px;
+      }
+      
+      .flagStripes {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      
+      .redTop {
+        width: 100%;
+        height: 54px;
+        background-color:red;
+        margin-left: 400px;
+      }
+      
+      .whiteTop {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        margin-left: 400px;
+      }
+      
+      .redBottom {
+        width: 100%;
+        height: 54px;
+        background-color:red;
+      }
+      
+      .whiteBottom {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+      }
+
+      .contactLogo {
+        font-size: 150px;
+        align-items: center;
+      }
+
+      .Instagram {
+        position: absolute;
+        top: 70%;
+        left: 25%;
+      }
+      
+      .LinkedIn {
+        position: absolute;
+        top: 70%;
+        left: 75%;
+      }
+
+      .BottomNav {
+          padding-bottom: 7px;
+      }
+  }
+  
+  @media (min-width: 801px) and (max-width: 1028px) {
+    .flagContainer {
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 50%;
+      }
+      
+      .flagStars {
+        background-color: blue;
+        width: 50%;
+        height: 400px;
+      }
+      
+      .flagStripes {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+      }
+      
+      .redTop {
+        width: 100%;
+        height: 54px;
+        background-color:red;
+        margin-left: 500px;
+      }
+      
+      .whiteTop {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+        margin-left: 500px;
+      }
+      
+      .redBottom {
+        width: 100%;
+        height: 54px;
+        background-color:red;
+      }
+      
+      .whiteBottom {
+        width: 100%;
+        height: 54px;
+        background-color: white;
+      }
+
+      .contactLogo {
+        font-size: 200px;
+        align-items: center;
+      }
+
+      .Instagram {
+        position: absolute;
+        top: 70%;
+        left: 25%;
+      }
+      
+      .LinkedIn {
+        position: absolute;
+        top: 70%;
+        left: 75%;
+      }
+
+      .BottomNav {
+          padding-bottom: 7px;
+      }
+  }

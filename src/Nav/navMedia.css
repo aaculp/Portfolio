@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
   * {
     margin: 0 auto;
     overflow: hidden;
@@ -12,11 +12,15 @@
     position: absolute;
     left: 35%;
     top: 5%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
     -webkit-transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.5s;
   }
 
   .welcome:hover, .welcome:focus, .welcome:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
@@ -26,11 +30,15 @@
     position: absolute;
     left: 43%;
     top: 10%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
     -webkit-transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.5s;
   }
 
   .the:hover, .the:focus, .the:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
@@ -40,11 +48,15 @@
     position: absolute;
     left: 32%;
     top: 15%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
     -webkit-transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.5s;
   }
 
   .portfolio-of:hover, .portfolio-of:focus, .portfolio-of:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
@@ -70,11 +82,15 @@
     position: absolute;
     left: 32%;
     top: 27%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
     -webkit-transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.5s;
   }
 
   .name:hover, .name:focus, .name:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
@@ -84,11 +100,15 @@
     position: absolute;
     left: 33%;
     top: 75%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
     -webkit-transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.5s;
   }
 
   .front-end:hover, .front-end:focus, .front-end:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
@@ -98,11 +118,15 @@
     position: absolute;
     left: 28%;
     top: 80%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
     -webkit-transform: perspective(1px) translateZ(0);
     -webkit-transition-duration: 0.5s;
   }
 
   .web-dev:hover, .web-dev:focus, .web-dev:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
@@ -193,31 +217,43 @@
   }
 
   .welcome:hover, .welcome:focus, .welcome:active {
+    transform: scale(1.5,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1.5,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
   .the:hover, .the:focus, .the:active {
+    transform: scale(2,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(2,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
   .portfolio-of:hover, .portfolio-of:focus, .portfolio-of:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
   .name:hover, .name:focus, .name:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
   .front-end:hover, .front-end:focus, .front-end:active {
+    transform: scale(1.6,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1.6,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
   .web-dev:hover, .web-dev:focus, .web-dev:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }

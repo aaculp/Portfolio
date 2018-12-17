@@ -1,9 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
-
-export default class HalfNav extends Component {
-  render() {
+export default function HalfNav() {
     return(
       <div className = 'HalfNavBar'>
         <Link to = '/home' style = {{ color: 'red'}}>Home</Link>
@@ -12,4 +10,4 @@ export default class HalfNav extends Component {
       </div>
     )
   }
-}
+

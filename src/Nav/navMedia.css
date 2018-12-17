@@ -1,13 +1,4 @@
-@media only screen and (min-width: 375px) and (max-width: 480px) {
-  * {
-    margin: 0 auto;
-    overflow: hidden;
-  }
-
-  .homepage {
-    overflow: hidden;
-  }
-
+@media only screen and (min-width: 375px) and (max-width: 413px) {
   .welcome {
     position: absolute;
     left: 35%;
@@ -72,7 +63,7 @@
   }
 
   .big-image {
-    visibility: hidden;
+    display: none;
   }
 
   .name {
@@ -172,62 +163,53 @@
     left: 15%;
     transition: all 1s;
   }
-
 }
 
-@media (min-width: 481px) and (max-width: 800px) {
-  .big-image {
-    visibility: hidden;
-  }
-
-  .home-img {
+@media only screen and (min-width: 414px) and (max-width: 659px) {
+  .welcome {
     position: absolute;
     left: 40%;
-    top: 25%;
-    height: 300px;
-    width: 200px;
-    border-radius: 25px;
-    visibility: visible;
-  }
-
-  .ContactNav {
-    color: blue;
-    position: fixed;
-    right: -7%;
-    top: 300px;
-    transform: rotate(-90deg);
-    letter-spacing: 5px;
-  }
-
-  .ProjectsNav {
-    background-color:rgba(255, 255, 255, 0);
-    color: orange;
-    position: fixed;
-    width: 100%;
-    left: 40%;
-    bottom: 25px;
-  }
-
-  .ProjectsNav:hover {
-    color: white;
-    background-color:rgba(255, 255, 255, 0);
-    letter-spacing: 60px;
-    left: 15%;
-    transition: all 1s;
+    top: 5%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
   }
 
   .welcome:hover, .welcome:focus, .welcome:active {
-    transform: scale(1.5,2);
+    transform: scale(1,2);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    -webkit-transform: scale(1.5,2);
+    -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
+  .the {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 48%;
+    top: 10%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
   .the:hover, .the:focus, .the:active {
-    transform: scale(2,2);
+    transform: scale(1,2);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    -webkit-transform: scale(2,2);
+    -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .portfolio-of {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 38%;
+    top: 15%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
   }
 
   .portfolio-of:hover, .portfolio-of:focus, .portfolio-of:active {
@@ -237,6 +219,33 @@
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
+  .home-img {
+    position: absolute;
+    left: 37%;
+    top: 25%;
+    height: 300px;
+    width: 150px;
+    border-radius: 25px;
+    visibility: visible;
+  }
+
+  .big-image {
+    display: none;
+  }
+
+  .name {
+    color: white;
+    font-size: 18px;
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 38%;
+    top: 27%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
   .name:hover, .name:focus, .name:active {
     transform: scale(1,2);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
@@ -244,11 +253,33 @@
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
   }
 
+  .front-end {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 40%;
+    top: 75%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
   .front-end:hover, .front-end:focus, .front-end:active {
-    transform: scale(1.6,2);
+    transform: scale(1,2);
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
-    -webkit-transform: scale(1.6,2);
+    -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .web-dev {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 36%;
+    top: 80%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
   }
 
   .web-dev:hover, .web-dev:focus, .web-dev:active {
@@ -256,5 +287,207 @@
     transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
     -webkit-transform: scale(1,2);
     -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .ProjectsNav {
+    background-color:rgba(255, 255, 255, 0);
+    color: orange;
+    position: fixed;
+    width: 100%;
+    left: 32%;
+    bottom: 5%;
+  }
+
+  .ProjectsNav:hover {
+    color: white;
+    background-color:rgba(255, 255, 255, 0);
+    letter-spacing: 10px;
+    left: 25%;
+    transition: all 1s;
+  }
+}
+
+@media only screen and (min-width: 660px) and (max-width: 874px) {
+  .big-image {
+    display: none;
+  }
+
+  .home-img {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    height: 400px;
+    width: 225px;
+    border-radius: 25px;
+    visibility: visible;
+  }
+
+  .welcome {
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    letter-spacing: 5px;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .welcome:hover, .welcome:focus, .welcome:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .the {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 48%;
+    top: 5%;
+    letter-spacing: 2px;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .the:hover, .the:focus, .the:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .portfolio-of {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 60%;
+    top: 5%;
+    letter-spacing: 2px;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .portfolio-of:hover, .portfolio-of:focus, .portfolio-of:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .name {
+    font-size: 30px;
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 40%;
+    top: 12.5%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .name:hover, .name:focus, .name:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .front-end {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 25%;
+    top: 83%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .front-end:hover, .front-end:focus, .front-end:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .web-dev {
+    background-color:rgba(255, 255, 255, 0);
+    position: absolute;
+    left: 64%;
+    top: 83%;
+    transform: perspective(1px) translateZ(0);
+    transition-duration: 0.5s;
+    -webkit-transform: perspective(1px) translateZ(0);
+    -webkit-transition-duration: 0.5s;
+  }
+
+  .web-dev:hover, .web-dev:focus, .web-dev:active {
+    transform: scale(1,2);
+    transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+    -webkit-transform: scale(1,2);
+    -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  }
+
+  .ProjectsNav {
+    background-color:rgba(255, 255, 255, 0);
+    color: orange;
+    position: fixed;
+    width: 100%;
+    left: 41%;
+    bottom: 5%;
+  }
+
+  .ProjectsNav:hover {
+    color: white;
+    background-color:rgba(255, 255, 255, 0);
+    letter-spacing: 10px;
+    left: 35%;
+    transition: all 1s;
+  }
+}
+
+@media only screen and (min-width: 875px) and (max-width: 1000px) {
+  .big-image {
+    display: none;
+  }
+
+  .home-img {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    height: 400px;
+    width: 225px;
+    border-radius: 25px;
+    visibility: visible;
+  }
+
+  .ProjectsNav {
+    background-color:rgba(255, 255, 255, 0);
+    color: orange;
+    position: fixed;
+    width: 100%;
+    left: 40%;
+    bottom: 5%;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1145px) {
+  .big-image {
+    display: none;
+  }
+
+  .home-img {
+    position: absolute;
+    left: 38%;
+    top: 20%;
+    height: 400px;
+    width: 300px;
+    border-radius: 25px;
+    visibility: visible;
   }
 }

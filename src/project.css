@@ -20,17 +20,18 @@
 
 .dropdown-content {
     display: none;
-    color: black;
     text-decoration: none;
     padding: 15px 0 15px 0;
     z-index: 1;
 }
 
-.menu:hover .dropdown-content {
+  .menu:hover .dropdown-content {
     display: flex;
-    flex-direction: column;
-    font-size: 30px;
-}
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 1250px;
+  }
 
 .projectGrid {
   display: grid;

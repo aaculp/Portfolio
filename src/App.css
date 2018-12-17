@@ -80,9 +80,9 @@
   }
 }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 375px) and (max-width: 480px) {
   .HalfNavBar {
-    font-size: 18px;
+    font-size: 14px;
   }
 
   .NameContainer {
@@ -92,7 +92,7 @@
     left: 3.5%;
     top: 35%;
     font-family: 'Bungee Shade', cursive;
-    font-size: 50px;
+    font-size: 40px;
     color: red;
   }
 

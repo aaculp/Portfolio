@@ -1,42 +1,125 @@
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+  .menu:hover .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 16px;
+    width: 375px;
+  }
+
+  .dropdown-content {
+    margin: 0 2px 0 2px;
+  }
+
   .RickMortyOverlay {
-    top: 17.2%;
+    top: 18%;
   }
 
   .RickMortyText h1{
-    font-size: 14px;
-    padding: 3px 0 3px 0;
+    font-size: 10px;
+    padding: 2px 0 2px 0;
   }
 
   .RickMorty:hover .RickMortyOverlay {
-    height: 29.3%;
+    height: 23.7%;
   }
 
   .DuckHuntOverlay {
-    top: 47.9%;
+    top: 43.2%;
+  }
+
+  .DuckHuntText h1{
+    font-size: 12px;
+    padding: 6px 2px 6px 2px;
+  }
+
+  .DuckHunt:hover .DuckHuntOverlay {
+    height: 23.7%;
+  }
+
+  .RemediOverlay {
+    top: 68.5%;
+  }
+
+  .RemediText h1{
+    font-size: 20px;
+    padding: 15px 0 15px 0;
+    margin: 5px 0 0 0;
+  }
+
+  .Remedi:hover .RemediOverlay {
+    height: 60%;
+  }
+
+  .imageRemedi {
+    height: 400px;
+  }
+
+  .WhoHasTimeOverlay {
+    top: 130%;
+  }
+
+  .WhoHasTimeText h1{
+    font-size: 10px;
+    padding: 2.5px 0 2.5px 0;
+  }
+
+  .WhoHasTime:hover .WhoHasTimeOverlay {
+    height: 23.7%;
+  }
+}
+
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+  .menu:hover .dropdown-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 18px;
+    width: 375px;
+  }
+
+  .dropdown-content {
+    margin: 0 2px 0 2px;
+  }
+
+  .RickMortyOverlay {
+    top: 16.3%;
+  }
+
+  .RickMortyText h1{
+    font-size: 10px;
+    padding: 2px 1px 2px 1px;
+  }
+
+  .RickMorty:hover .RickMortyOverlay {
+    height: 23.7%;
+  }
+
+  .DuckHuntOverlay {
+    top: 41.5%;
   }
 
   .DuckHuntText h1{
     font-size: 16px;
-    padding: 12px 0 13px 0;
+    padding: 3px 0 3px 0;
   }
 
   .DuckHunt:hover .DuckHuntOverlay {
-    height: 29%;
+    height: 23.7%;
   }
 
   .RemediOverlay {
-    top: 78.5%;
+    top: 66.6%;
   }
 
   .RemediText h1{
     font-size: 20px;
-    padding: 30px 0 15px 0;
-    margin: 5px 0 0 0;
+    padding: 15px 0 15px 0;
+    margin-top: 5px;
   }
 
   .Remedi:hover .RemediOverlay {
-    height: 57.4%;
+    height: 54.3%;
   }
 
   .imageRemedi {
@@ -44,79 +127,20 @@
   }
 
   .WhoHasTimeOverlay {
-    top: 137.3%;
+    top: 122.3%;
   }
 
   .WhoHasTimeText h1{
-    font-size: 13px;
-    padding: 5px 0 5px 0;
+    font-size: 10px;
+    padding: 2.5px 2px 2.5px 2px;
   }
 
   .WhoHasTime:hover .WhoHasTimeOverlay {
-    height: 29.3%;
+    height: 23.7%;
   }
 }
 
-@media (min-width: 481px) and (max-width: 800px) {
-  .RickMortyOverlay {
-    top: 17.2%;
-  }
-
-  .RickMortyText h1{
-    font-size: 20px;
-    padding: 5px 0 5px 0;
-  }
-
-  .RickMorty:hover .RickMortyOverlay {
-    height: 49.7%;
-  }
-
-  .DuckHuntOverlay {
-    top: 68.3%;
-  }
-
-  .DuckHuntText h1{
-    font-size: 26px;
-    padding: 12px 0 13px 0;
-  }
-
-  .DuckHunt:hover .DuckHuntOverlay {
-    height: 49.7%;
-  }
-
-  .RemediOverlay {
-    top: 119.4%;
-  }
-
-  .RemediText h1{
-    font-size: 20px;
-    padding: 30px 0 15px 0;
-    margin: 5px 0 0 0;
-  }
-
-  .Remedi:hover .RemediOverlay {
-    height: 57.4%;
-  }
-
-  .imageRemedi {
-    height: 400px;
-  }
-
-  .WhoHasTimeOverlay {
-    top: 178.2%;
-  }
-
-  .WhoHasTimeText h1{
-    font-size: 24px;
-    padding: 5px 1px 5px 1px;
-  }
-
-  .WhoHasTime:hover .WhoHasTimeOverlay {
-    height: 49.8%;
-  }
-}
-
-@media (min-width: 801px) and (max-width: 1028px) {
+@media only screen and (min-width: 801px) and (max-width: 1028px) {
   .RickMortyOverlay {
     top: 17.2%;
   }

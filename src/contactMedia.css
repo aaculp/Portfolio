@@ -1,143 +1,79 @@
-@media (min-width: 320px) and (max-width: 480px) {
-    .flagContainer {
-        background-color: blue;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 50%;
-      }
-      
-      .flagStars {
-        background-color: blue;
-        width: 50%;
-        height: 400px;
-      }
-      
-      .flagStripes {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-      
-      .redTop {
-        width: 100%;
-        height: 54px;
-        background-color:red;
-        margin-left: 300px;
-      }
-      
-      .whiteTop {
-        width: 100%;
-        height: 54px;
-        background-color: white;
-        margin-left: 300px;
-      }
-      
-      .redBottom {
-        width: 100%;
-        height: 54px;
-        background-color:red;
-      }
-      
-      .whiteBottom {
-        width: 100%;
-        height: 54px;
-        background-color: white;
-      }
-
-      .contactLogo {
-        font-size: 150px;
-        align-items: center;
-      }
-
-      .Instagram {
-        position: absolute;
-        top: 70%;
-        left: 25%;
-      }
-      
-      .LinkedIn {
-        position: absolute;
-        top: 70%;
-        left: 75%;
-      }
-
-      .BottomNav {
-        align-items: center;
-        margin-bottom: 5%;
-      }
+@media only screen and (min-width: 375px) and (max-width: 413px) {
+  .redTop {
+    width: 100%;
+    height: 50px;
+    background-color:red;
+    margin-left: 200px;
   }
   
-  @media (min-width: 481px) and (max-width: 800px) {
-    .flagContainer {
-        background-color: blue;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 50%;
-      }
-      
-      .flagStars {
-        background-color: blue;
-        width: 50%;
-        height: 400px;
-      }
-      
-      .flagStripes {
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-      }
-      
-      .redTop {
-        width: 100%;
-        height: 54px;
-        background-color:red;
-        margin-left: 400px;
-      }
-      
-      .whiteTop {
-        width: 100%;
-        height: 54px;
-        background-color: white;
-        margin-left: 400px;
-      }
-      
-      .redBottom {
-        width: 100%;
-        height: 54px;
-        background-color:red;
-      }
-      
-      .whiteBottom {
-        width: 100%;
-        height: 54px;
-        background-color: white;
-      }
+  .whiteTop {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    margin-left: 200px;
+  }
 
-      .contactLogo {
-        font-size: 150px;
-        align-items: center;
-      }
+  .contactLogo {
+    font-size: 150px;
+    align-items: center;
+  }
 
-      .Instagram {
-        position: absolute;
-        top: 70%;
-        left: 25%;
-      }
-      
-      .LinkedIn {
-        position: absolute;
-        top: 70%;
-        left: 75%;
-      }
-
-      .BottomNav {
-          padding-bottom: 7px;
-      }
+  .Instagram {
+    position: absolute;
+    top: 69%;
+    left: 25%;
   }
   
-  @media (min-width: 801px) and (max-width: 1028px) {
+  .LinkedIn {
+    position: absolute;
+    top: 69%;
+    left: 75%;
+  }
+  
+  .BottomNav {
+    align-items: center;
+    margin-bottom: 7%;
+  }
+}
+  
+@media only screen and (min-width: 414px) and (max-width: 768px) {
+    .redTop {
+      width: 100%;
+      height: 60px;
+      background-color:red;
+      margin-left: 225px;
+    }
+    
+    .whiteTop {
+      width: 100%;
+      height: 60px;
+      background-color: white;
+      margin-left: 225px;
+    }
+  
+    .contactLogo {
+      font-size: 150px;
+      align-items: center;
+    }
+  
+    .Instagram {
+      position: absolute;
+      top: 72%;
+      left: 25%;
+    }
+    
+    .LinkedIn {
+      position: absolute;
+      top: 72%;
+      left: 75%;
+    }
+    
+    .BottomNav {
+      align-items: center;
+    }
+}
+  
+@media only screen and (min-width: 769px) and (max-width: 1028px) {
     .flagContainer {
         background-color: blue;
         display: flex;
@@ -204,4 +140,4 @@
       .BottomNav {
           padding-bottom: 7px;
       }
-  }
+}
